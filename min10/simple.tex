@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{natbib}
+
+\begin{document}
+
+\title{\LaTeX\ is great}
+\author{Bullwinkle}
+\date{\today}
+\maketitle
+
+\tableofcontents
+
+\section{On Second Thought}
+
+My first document, produced using emacs.  Emacs is nice!
+Emacs is also nice for editing \LaTeX.
+
+\section{My First Section}
+
+\LaTeX\ also  produces beautiful mathematics.
+\begin{equation}
+\psi^\ast = \frac{B(x^\ast)}{\mathrm{Re}_L}\zeta
+\end{equation}
+as indicated by \citet{bullwinkle.1990}.  Note that the
+\texttt{natbib} package also offers paranthetical citation
+\citep{bullwinkle.1990}. 
+
+\bibliographystyle{plainnat}
+\bibliography{add}
+
+\end{document}

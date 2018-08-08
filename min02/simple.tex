@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage{threeparttable}
+
+\begin{document}
+
+\title{\LaTeX\ is great}
+\author{Bullwinkle}
+\date{\today}
+\maketitle
+
+\tableofcontents
+\listoftables
+
+\section{My First Section}
+
+My first document, produced using emacs.  Emacs is nice!
+Emacs is also nice for editing \LaTeX.  \LaTeX\ also makes production
+of beautiful tables straightforward, such as seen in
+Table~\ref{tbl:tbl02}. %
+\begin{table}[t]
+\begin{threeparttable}
+  \caption{THE CAPTION OF THE TABLE USES CAPITAL LETTERS.}
+  \label{tbl:tbl02}
+  \begin{center}
+\begin{tabular*}{\textwidth}{c l l} % or {tabular}
+  \hline
+  Example & Time\tnote{1} & Cost \\
+  \hline
+  1 & 12.5 & \$1,000 \\
+  2 & 24 & \$2,000 \\
+  \hline
+\end{tabular*}
+\begin{tablenotes}
+  \item [1] The first note.
+\end{tablenotes}
+  \end{center}
+\end{threeparttable}
+\end{table}
+
+\section{On Second Thought}
+
+\LaTeX\ also  produces beautiful mathematics.
+\begin{equation}
+\psi^\ast = \frac{B(x^\ast)}{\mathrm{Re}_L}\zeta
+\end{equation}
+
+\end{document}
