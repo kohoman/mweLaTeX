@@ -1,4 +1,4 @@
-# minwes
+# mweLaTeX
 Minimum working examples of LaTeX capabilities (with Makefiles)
 
 The individual directories correspond to illustration of the following basic capabilities
