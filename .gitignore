@@ -1,2 +1,5 @@
+# ... gitignore for mweLaTeX repo ...
+*.aux
+*.log
 *.pdf
 *~
