@@ -1,7 +1,19 @@
 # ... gitignore for mweLaTeX repo ...
+
+# ... dirs to ignore ...
+_minted-*/
+
+# ... files to ignore ...
 *.aux
+*.bbl
+*.blg
+*.ilg
 *.lof
 *.log
+*.lot
+*.nlo
+*.nls
+*.out
 *.pdf
 *.toc
 *~
