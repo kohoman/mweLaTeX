@@ -1,5 +1,7 @@
 # ... gitignore for mweLaTeX repo ...
 
+simple.pdf
+
 # ... dirs to ignore ...
 _minted-*/
 
@@ -14,6 +16,5 @@ _minted-*/
 *.nlo
 *.nls
 *.out
-*.pdf
 *.toc
 *~
