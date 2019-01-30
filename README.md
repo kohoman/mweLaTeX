@@ -1,5 +1,5 @@
 # mweLaTeX
-Minimum working examples of LaTeX capabilities (with Makefiles)
+Minimum working examples of LaTeX capabilities (with Makefiles).
 
 The individual directories correspond to illustration of the following basic capabilities
 in a bare bones LaTeX document: 
