@@ -1,6 +1,12 @@
 \documentclass{article}
-\usepackage{nomencl}
-
+\usepackage{ifthen}
+\usepackage[noprefix]{nomencl}
+\renewcommand{\nomname}{Nomenclature}
+\renewcommand{\nomgroup}[1]{
+   \ifthenelse{\equal{#1}{A}}{\medskip \item \textbf{Roman}}{}%
+   \ifthenelse{\equal{#1}{G}}{\medskip \item \textbf{Greek}}{}%
+   \ifthenelse{\equal{#1}{S}}{\medskip \item \textbf{Subscripts}}{}%
+}
 \makenomenclature 
 
 \begin{document}
